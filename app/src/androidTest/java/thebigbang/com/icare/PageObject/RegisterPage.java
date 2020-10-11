@@ -48,14 +48,14 @@ public class RegisterPage extends BasePage {
         onView(withId(R.id.spBloodGroup)).perform(click());
         onView(withText("AB+")).perform(click());
 
-        onView(withId(R.id.spBloodGroup)).perform(click());
-        onData(is("O-"))
-                .perform(click());
-
-        onView(withId(R.id.spBloodGroup)).perform(click());
-        onData(anything())
-                .atPosition(4)
-                .perform(click());
+//        onView(withId(R.id.spBloodGroup)).perform(click());
+//        onData(is("O-"))
+//                .perform(click());
+//
+//        onView(withId(R.id.spBloodGroup)).perform(click());
+//        onData(anything())
+//                .atPosition(4)
+//                .perform(click());
 
         //Blood Pressure
         onView(withId(R.id.spBP)).perform(click());
